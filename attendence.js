@@ -1,0 +1,37 @@
+db.attendence.insertMany([
+    {
+        id:1,
+        date:ISODate("2020-10-15"),
+        studentPresent:["Nirmal","Vinoth","Kailash"]
+    },
+    {
+        id:2,
+        date:ISODate("2020-10-16"),
+        studentPresent:["Bala","Vinoth","Kailash","Vetri"]
+    },
+    {
+        id:3,
+        date:ISODate("2020-10-17"),
+        studentPresent:["Nirmal","Vinoth","Kailash","Vetri"]
+    },
+    {
+        id:4,
+        date:ISODate("2020-10-18"),
+        studentPresent:["Vinoth","Kailash","Bala","Vetri"]
+    },
+    {
+        id:5,
+        date:ISODate("2020-10-19"),
+        studentPresent:["Nirmal","Bala","Vetri"]
+    },
+    {
+        id:6,
+        date:ISODate("2020-10-20"),
+        studentPresent:["Nirmal","Bala"]
+    },
+    {
+        id:7,
+        date:ISODate("2020-10-22"),
+        studentPresent:["Nirmal","Vinoth","Kailash","Bala","Vetri"]
+    },
+])
